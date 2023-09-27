@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e5e5e5;
+}
+
+
+
+
+
+
+.hero{
+    border-color: solid red;
+    width: 1136px;
+    height: 521px;
+    background-color: #ffff;
+}
+
+.footer{
+    width: 1280px;
+    height: 351px;
+    background-color:;
+}
+
+.header{
+    width: 1280px;
+    height: 108px;
+    background-color: #ffff;
+}
+
+.comentarios{
+    width: 770px;
+    height: 425.8px;
+    background-color: #ffff;
+}
+
+.planos{
+    width: 1135px;
+    height: 454px;
+    background-color: #ffff;
+}
+
+.atuacao{
+    width: 1155px;
+    height: 424px;
+    background-color: #ffff;
+}
+
+.sobrenos{
+    width: 1265.12px;
+    height: 777.27px;
+    background-color: #ffff;
+}
+
+.servicos{
+    width: 1155px;
+    height: 424px;
+    background-color: #ffff;
+}
+
+#queroconhecer{
+    background-color:#304f8c;
+    width: 250px;
+    height: 60px;
+    color: #ffffff;
+    border-radius: 10px;
+    
+}
