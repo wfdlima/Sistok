@@ -1,71 +1,110 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
-
-
-
-.main{
+body {
     width: 100vw;
     height: 100vh;
-    background-color: #e5e5e5;
+    background-color: gray;
+}
+
+.header{
+    width: 100vw;
+    height: 108px;
+    padding: 30px;
+    background-color: #ffff;
+    display: inline-flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.menu{
+    display:inline-flex; 
+    align-items: center;
+    justify-content: space-between;
+    width: 455px;
+    height: 19px;
+}
+
+.menu a{
+    color:#4c5d73;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100px;
+    height: 20px;  
+    margin-right: 10px;
+    display:inline-flex; 
+    justify-content: space-between;
+    
 }
 
 
-
-
+.cadastre-se a{
+    color:#304f8c;
+    text-decoration: none;
+    font-weight: 500;
+}
+.inf_inicial{
+    color:#4c5d73;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
 .hero{
-    border-color: solid red;
-    width: 1136px;
+    width: 100vw;
     height: 521px;
     background-color: #ffff;
+    font-size: 20px;
 }
 
 .footer{
     width: 1280px;
     height: 351px;
-    background-color:;
+    background-color:#111826;  
+    border:solid red;
 }
 
-.header{
-    width: 1280px;
-    height: 108px;
-    background-color: #ffff;
-}
+
 
 .comentarios{
     width: 770px;
     height: 425.8px;
-    background-color: #ffff;
+    
 }
 
 .planos{
     width: 1135px;
     height: 454px;
-    background-color: #ffff;
+   
 }
 
 .atuacao{
     width: 1155px;
     height: 424px;
-    background-color: #ffff;
+    
 }
 
 .sobrenos{
     width: 1265.12px;
     height: 777.27px;
-    background-color: #ffff;
+    
 }
 
 .servicos{
     width: 1155px;
     height: 424px;
-    background-color: #ffff;
+    font-weight: 400;
+    border:solid red;
+    
 }
 
 #queroconhecer{
@@ -74,5 +113,26 @@
     height: 60px;
     color: #ffffff;
     border-radius: 10px;
+    border:none;
+    cursor: pointer;
     
+}
+
+#entrar{
+    background-color:#ffffff;
+    width: 150px;
+    height: 44px;
+    color:#304f8c;
+    border-color:#304f8c;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    border:solid 1px;
+
+}
+#servico{
+    font-size: 16px;
+    color:#4c5d73;
+    border: solid red;
 }
