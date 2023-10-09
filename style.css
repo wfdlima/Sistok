@@ -13,7 +13,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: gray;
+    background-color: #ffffff;
 }
 
 .header{
@@ -22,7 +22,9 @@ body {
     background-color: #ffff;
     display: inline-flex;
     align-items:center;
-    justify-content: space-between;
+    justify-content: space-between; 
+    padding-left: 72px;
+    
     
 }
 
@@ -37,28 +39,65 @@ body {
     border-radius: 8px;
     cursor: pointer;
     border:solid 1px;
+    
 
 }
 
 .hero{
     width: 100vw;
     height: 521px;
-    background-color: gray;
+    background-color: #ffff;
     font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    padding: 25px;
+    flex-direction: column;    
+    padding-bottom: 150px;
+    padding-left: 72px; 
 
 }
-.bottom{
-    display: inline-flex;
+.hero-menu{   
     width: 100vw;
     height: 124px;
-    justify-content: space-evenly;
-    align-items: center;
-   
+    display: inline-flex;
+    justify-content: space-around;  
+    padding-top: 40px;
+      
+}
+
+.heromenu{    
+    display: inline-flex;    
+}
+#solucao h4{
+    padding-right: 15px;
+}
+#Plataforma p{
+    padding-right:78px;
+}
+#Segurança p{
+    padding-right: 11px;
+}
+.heromenu p{
+    color:#4c5d73;
+}
+
+
+
+.heromenu h4{    
+    padding-right: 55px;
+    
+}
+
+#queroconhecer{
+    margin-top: 32px;
+    background-color:#304f8c;
+    width: 250px;
+    height: 60px;
+    color: #ffffff;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    
 }
 
 .submenu{
@@ -68,7 +107,8 @@ body {
     flex-direction: column;
     margin-left: 9px;
     font-size: 17px;
-    color:solid;
+    
+      
 }
 
 .inf-img{
@@ -76,6 +116,8 @@ body {
     width: 100vw;
     display: inline-flex;
     justify-content: space-between ;
+    
+    
 }
 
 .inf_inicial{
@@ -102,16 +144,6 @@ body {
     
 
 }
-
-.heromenu{
-    width: 164px;
-    display: inline-flex;
-
-    
-    
-    border: solid;
-}
-
 
 
 .menu{
@@ -145,7 +177,7 @@ body {
 
 
 .footer{
-    width: 1280px;
+    width: 100vw;
     height: 351px;
     background-color:#111826;  
     border:solid red;
@@ -177,28 +209,65 @@ body {
 }
 
 .servicos{
-    width: 1155px;
+    width: 100vw;
     height: 424px;
-    font-weight: 400;
-    border:solid red;
-    
+    font-weight: 400;    
+    margin-top: 88px;
+    border:solid; 
+    padding-left: 72px;  
+    padding-top: 0px;
+}
+.servicos h1{
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 15px;
 }
 
-#queroconhecer{
-    margin-top: 32px;
-    background-color:#304f8c;
-    width: 250px;
-    height: 60px;
-    color: #ffffff;
-    border-radius: 10px;
-    border:none;
-    cursor: pointer;
-    
-}
-
-
-#servico{
-    font-size: 16px;
+#titulo{
     color:#4c5d73;
-    border: solid red;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
 }
+
+.servi-menu{   
+    width: 100vw;
+    height: 208px;
+    display: inline-flex;
+    justify-content: space-around;  
+    margin-top: 48px;
+   
+      
+}
+.servimenu{    
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+    height: 208px;
+    border: solid; 
+      
+    
+}
+
+.servimenu img{
+    width: 68px;
+    height: 68px;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+.servimenu p{
+    color:#4c5d73;
+    font-size: 14px;
+}
+.servicos h4{
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    
+}
+
+
+
+
+
+
